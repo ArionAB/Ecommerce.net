@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "Ecommerce/1.0.0": {
         "dependencies": {
+          "AWSSDK.ElasticBeanstalk": "3.7.101.66",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "BCrypt.Net-Next": "4.0.3",
           "MailKit": "2.8.0",
@@ -356,6 +357,31 @@
         },
         "compile": {
           "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.106.35": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.106.35"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.ElasticBeanstalk/3.7.101.66": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.35"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.ElasticBeanstalk.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.101.66"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.ElasticBeanstalk.dll": {}
         }
       },
       "BCrypt.Net-Next/4.0.3": {
@@ -3881,6 +3907,20 @@
       "sha512": "sha512-0asw5WxdCFh2OTi9Gv+oKyH9SzxwYQSnO8TV5Dd0GggovILzJW4UimP26JAcxc3yB5NnC5urooZ1BBs8ElpiBw==",
       "path": "automapper.extensions.microsoft.dependencyinjection/11.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.106.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ktw8eI07b9qXfiCi+lyr2FjQJil41Uf0UPNTDvxf7yDRDUEhq2cewtGKctpLcZ3MtlqMGtwjIpm/uA0RPSakGw==",
+      "path": "awssdk.core/3.7.106.35",
+      "hashPath": "awssdk.core.3.7.106.35.nupkg.sha512"
+    },
+    "AWSSDK.ElasticBeanstalk/3.7.101.66": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nh2uwsGjATDEDC0/kYbHn0jBmZal8BFRZzb/7oC1n8nqXqYKaobWHGhbWl/74yuTtmiU9sD+eaGAznVqhtTaeQ==",
+      "path": "awssdk.elasticbeanstalk/3.7.101.66",
+      "hashPath": "awssdk.elasticbeanstalk.3.7.101.66.nupkg.sha512"
     },
     "BCrypt.Net-Next/4.0.3": {
       "type": "package",

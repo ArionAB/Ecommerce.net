@@ -145,6 +145,9 @@ namespace Ecommerce.Migrations
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<DateTime>("DateModified")
+                        .HasColumnType("datetime(6)");
+
                     b.Property<int>("PaymentMethod")
                         .HasColumnType("int");
 

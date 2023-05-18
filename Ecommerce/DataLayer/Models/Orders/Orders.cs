@@ -29,6 +29,8 @@ namespace Ecommerce.DataLayer.Models.Orders
 
         public int TotalPrice { get; set; }
 
+        public DateTime DateModified { get; set; }
+
          
         
 

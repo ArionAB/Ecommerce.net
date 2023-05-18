@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5iMgYyAlHh7FOTMfNg1xP4YzNc/NzkaXdhtIdKfyAQHdsYFet9Bba7bdHTSF4uHGzL0p/FWnAILKjVmkqwPBGg==",
+  "dgSpecHash": "kqHYTNznCY6Rb86wlEmHBwvhKWFyWiqELBJ3Ui0S8nHI1bIVTlJASbr5yT5KrELDSIhDB276uIaGhwkx3KEQeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arion\\Source\\Repos\\Ecommerce.net\\Ecommerce\\Ecommerce.csproj",
+  "projectFilePath": "C:\\Users\\Arion\\source\\repos\\Ecommerce.net\\Ecommerce\\Ecommerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arion\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Arion\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Arion\\.nuget\\packages\\awssdk.core\\3.7.106.35\\awssdk.core.3.7.106.35.nupkg.sha512",
+    "C:\\Users\\Arion\\.nuget\\packages\\awssdk.elasticbeanstalk\\3.7.101.66\\awssdk.elasticbeanstalk.3.7.101.66.nupkg.sha512",
     "C:\\Users\\Arion\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Arion\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Arion\\.nuget\\packages\\mailkit\\2.8.0\\mailkit.2.8.0.nupkg.sha512",

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Ecommerce",
+    "\\Ecommerce\\Controllers"
   ],
-  "SelectedNode": "\\C:\\Users\\Arion\\Source\\Repos\\Ecommerce.net",
+  "SelectedNode": "\\Ecommerce\\Controllers\\BaseController.cs",
   "PreviewInSolutionExplorer": false
 }
