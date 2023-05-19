@@ -3,10 +3,12 @@ using Ecommerce.ServiceLayer.Utils;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Ecommerce.DataLayer.Utils
 {
     [Owned]
+    [Table("users_refreshtokens")]
     public class RefreshToken
     {
         [Key]
